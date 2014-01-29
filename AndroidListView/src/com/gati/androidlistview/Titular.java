@@ -4,9 +4,9 @@ public class Titular {
 	private String titulo;
 	private String subtitulo;
 
-	public Titular(String tit, String sub){
-		titulo = tit;
-		subtitulo = sub;
+	public Titular(String titulo, String subtitulo){
+		this.titulo = titulo;
+		this.subtitulo = subtitulo;
 	}
 	
 	public String getTitulo(){
